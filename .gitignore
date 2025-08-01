@@ -32,6 +32,9 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+venv/
+.env
+.env.*
 
 # Ignore all directories containing pyvenv.cfg
 **/pyvenv.cfg
@@ -52,3 +55,9 @@ yarn-error.log
 .serverless/
 .fusebox/
 .dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
